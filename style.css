@@ -1,0 +1,101 @@
+#display2{
+    outline:none;
+}
+body{
+    background-color: black;
+}
+
+.op{ color:white;
+    background-color:rgb(245, 125, 31); 
+    font-weight: 500;
+}
+
+.op:hover{ color:white;
+    background-color:rgb(255,86,0); ;
+}
+
+.op:active{ color:white;
+    background-color:rgb(255,52,0); ;
+}
+
+
+.pp{ color:black;
+    background-color: rgb(204, 211, 202);
+    font-weight: 500
+}
+
+.pp:hover{ color:black;
+    background-color: rgb(99,99,99);
+}
+
+
+.pp:active{ color:black;
+    background-color: rgb(59,59,59);
+}
+
+.lp{ color:white;
+    font-weight: 500;
+    background-color: rgb(59,59,59);
+}
+
+.lp:hover{
+    color:white;
+    background-color:rgb(34,34,34);
+}
+
+.lp:active{
+    
+    color:white;
+    background-color:rgb(20,20,20);
+}
+
+/* @media(min-width:412px){
+    #name1{
+        font-size:30px;
+        text-align: center;
+   
+}
+} */
+
+@media(max-width:400px){
+    #name1{
+        text-align: center;
+      
+       text-align: center;
+    
+        font-size: px;
+    }
+    #calc{
+        align-items: center;
+        
+     
+        width:800px;
+        height: 1300px;
+    }
+
+
+.lp ,.pp, .op{
+
+   
+    
+        font-size: 100px;
+    }
+.lp{
+    padding:50px;
+}
+.pp{
+    padding: 50px;
+}
+    
+.op{
+        padding:50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-bottom: 20px;
+    }
+    #display2{
+        font-size: 120px;
+        position: relative;
+       padding: 10px;
+    }
+}
