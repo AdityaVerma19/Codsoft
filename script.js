@@ -1,20 +1,6 @@
-const display=document.getElementById("display");
+// let image= document.querySelector("img");
+// image.setAttribute("class","phone");
 
-function appendToDisplay(input){
-display.value+=input;
-}
-
-function clearDisplay(){
-display.value="";
-}
-
-function calculate(){
-    try{
-display.value=eval(display.value);
-}
-
-catch(error){
-    display.value="error";
-
-}
-}
+let div=document.querySelector("#about");
+let x=div.getAttribute("class");
+console.log(x);
